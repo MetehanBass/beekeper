@@ -5,9 +5,10 @@
   background-size: cover;
   background-position: right;
   position: relative;
+  display: flex;
 
   .home_wrapper {
-    @apply items-center flex flex-col gap-10 justify-center px-5 py-20;
+    @apply items-center flex flex-col gap-10 justify-center px-5;
     margin: 0 auto;
     max-width: 1140px;
     .heading {

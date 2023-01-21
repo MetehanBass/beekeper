@@ -21,7 +21,7 @@ const HomeTab = () => {
             Buy your bee <br />
             Wait for honey
             <br />
-            Claim every hour
+            Collect every hour
             <br />
             Withdraw as cryptocurrency
           </h2>
