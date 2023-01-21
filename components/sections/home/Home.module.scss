@@ -1,0 +1,26 @@
+.home_container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../../public/assets/gradient-bg.jpg");
+  background-size: cover;
+  background-position: right;
+  position: relative;
+
+  .home_wrapper {
+    @apply items-center flex flex-col gap-10 justify-center px-5 py-20;
+    margin: 0 auto;
+    max-width: 1140px;
+    .heading {
+      @apply sm:text-7xl text-5xl flex gap-2 items-baseline;
+      background-size: 100%;
+      font-weight: 700;
+      color: #fff;
+    }
+    .description {
+      @apply text-center sm:text-xl text-lg font-medium;
+    }
+    .form {
+      @apply flex flex-col justify-center gap-3 items-center;
+    }
+  }
+}
